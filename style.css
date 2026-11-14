@@ -1,0 +1,222 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.flag {
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+.headern {
+    text-align: center;
+}
+.ff{
+    color: #002776;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+}
+p {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+}
+h5 {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+}
+li {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+}
+h3 {
+    color: #002776;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 20px;
+    line-height: 1.6;
+}
+.aa {
+    color: #002776;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+}
+.vv{
+    background-color:#063B25;
+}
+.oo {
+    text-align: center;
+    background-color: #1B5E20;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth";
+    font-size: 17px;
+    line-height: 1.6;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.oo a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.oo a:hover {
+    color: #FFDF00;
+}
+header {
+    padding: 5px;
+    margin: 0px;
+    background-color:#063B25;
+}
+footer {
+    background-color:#1B5E20;
+}
+body {
+    background-color:rgb(243, 250, 240);
+}
+.KK {
+    height: 300px;
+    width: 220px;
+    border: 1px solid rgb(156, 235, 215);
+    box-shadow: 0 6px 11px rgba(0,0,0,0.15);
+}
+.LL {
+    height: 280px;
+    width: 400px;
+    box-shadow: 0 6px 11px rgba(0,0,0,0.15);
+}
+.ss {
+    height: 400px;
+    width: 650px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.ii {
+    height: 380px;
+    width: 280px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.ee {
+    text-align: center;
+}
+.tt {
+    padding: 40px;
+}
+.yy {
+    text-align: center;
+}
+.gg {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #063B25;
+}
+#calendario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ww {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
+.zz {
+    padding-left: 300px;
+}
+.carouselMultiple{
+    margin: 0px auto;
+}
+@media (max-width: 450px){
+    .headern {
+        height:auto;
+        width: 100%;
+    }
+    .flag {
+        height: auto;
+        width: 100%;
+    }
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .oo {
+        width: 100%;
+        padding: 1px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+            }
+    .yy {
+        width: 100%;
+        justify-content: center;
+    }
+    p {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+        padding:0;
+    }
+    .LL {
+        width: 110px;
+        height: 80px;
+    }
+    #calendario{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .ww {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        text-align: center;
+    }
+    .ii{
+        width: 70%;
+        height: auto;
+    }
+    .ss {
+        width: 100%;
+        height: auto;
+    }
+    .zz {
+        padding: 0px;
+    justify-content: center;}
+}
